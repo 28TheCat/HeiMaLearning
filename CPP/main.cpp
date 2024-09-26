@@ -13,7 +13,12 @@ void multiply(Complex *A,float real,float imag);
 void divide(Complex *A,float real,float imag);
 
 int main(){
-
+    Complex *z1,*z2,z3,z4,z;
+    float RealPart,ImagPart;
+    assign(z1,8,6);
+    assign(z2,4,3);
+//    add(z1,z2,z3);
+return 0;
 }
 void assign(Complex *A,float real,float imag){
     A->realpart=real;
